@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I'm Sorry ❤️</title>
+<style>
+body{
+    margin:0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg,#ff9a9e,#fad0c4);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:20px;
+}
+.card{
+    background:white;
+    max-width:700px;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+    text-align:center;
+}
+h1{
+    color:#ff4d6d;
+}
+p{
+    line-height:1.8;
+    color:#444;
+    font-size:18px;
+}
+.heart{
+    font-size:50px;
+    animation:beat 1s infinite;
+}
+@keyframes beat{
+    0%,100%{transform:scale(1);}
+    50%{transform:scale(1.15);}
+}
+button{
+    background:#ff4d6d;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:30px;
+    font-size:18px;
+    cursor:pointer;
+}
+button:hover{
+    opacity:0.9;
+}
+#message{
+    display:none;
+    margin-top:20px;
+    color:#ff4d6d;
+    font-weight:bold;
+    font-size:22px;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+<div class="heart">❤️</div>
+
+<h1>To My Love ❤️</h1>
+
+<p>
+I know I always end up saying sorry after making mistakes, and I understand if you're tired of hearing it. But this time, I really mean it from my heart, I just want that my girl did not suffered from anything. You mean so much to me, and the last thing I never want to hurt you. I know my words alone may not be enough, but I am really very sorry. Please give me a chance to make things right 🥺.
+</p>
+
+<p>
+Forever Yours,<br>
+<b>Shlok ❤️</b>
+</p>
+
+<button onclick="showMessage()">Will You Forgive Me?</button>
+
+<div id="message">
+🥺❤️ Thank you for reading this. No matter what, you will always be special to me. ❤️🥺
+</div>
+
+</div>
+
+<script>
+function showMessage(){
+ document.getElementById("message").style.display="block";
+}
+</script>
+
+</body>
+</html>
